@@ -791,6 +791,13 @@ a {
   padding: 1.2rem;
 }
 
+.project-card-anchor {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+}
+
 .project-card h3 {
   margin: 0.35rem 0 0.75rem;
 }
