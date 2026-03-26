@@ -798,6 +798,23 @@ a {
   height: 100%;
 }
 
+.project-card-anchor:link,
+.project-card-anchor:visited,
+.project-card-anchor:hover,
+.project-card-anchor:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card-anchor h3,
+.project-card-anchor:link h3,
+.project-card-anchor:visited h3,
+.project-card-anchor:hover h3,
+.project-card-anchor:active h3 {
+  color: var(--text);
+  text-decoration: none;
+}
+
 .project-card h3 {
   margin: 0.35rem 0 0.75rem;
 }
